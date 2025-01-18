@@ -1,0 +1,61 @@
+.upper {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 10px 40px;
+    align-items: center;
+}
+
+.social i {
+    padding: 5px;
+    font-size: larger;
+    color: grey;
+}
+
+.contact {
+    padding-right: 40px;
+}
+
+.contact i+a{
+    padding: 0 10px;
+}
+
+.contact i {
+    color: green;
+}
+
+.contact button {
+    background-color: lightgreen;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.lower {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    align-items: center;
+    padding: 0 40px;
+}
+
+
+
+.logo img{
+    height: 80px;
+    width: 80px;
+    
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    list-style: none;
+    margin: 0 8px;
+}
+
+/* Utility Classes, IDs and Tags */
+a {
+    text-decoration: none;
+}

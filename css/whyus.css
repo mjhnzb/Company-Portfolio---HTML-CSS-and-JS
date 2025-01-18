@@ -1,0 +1,38 @@
+h1 {
+  text-align: center;
+}
+
+.advantage-div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.advantages p {
+  text-align: center;
+  margin: 0 200px;
+}
+
+.logo-div {
+  margin: 100px 100px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.grid-container div {
+  text-align: center;
+}
+
+.grid-container i {
+  font-size: 50px;
+  border-radius: 50%;
+  background-color: lightgrey;
+  align-items: center; /* Vertically center the icon */
+  width: 100px; /* Set fixed width for the circle */
+  height: 100px;
+  display: inline-flex; /* Use flexbox for centering the icon */
+  justify-content: center;
+}
