@@ -1,0 +1,41 @@
+.people h1{
+    text-align: center;
+
+}
+.people p{
+    text-align: center;
+    width: 500px;
+    margin: auto;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 30px 90px;
+    
+
+}
+.grid-container > div {
+    display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.grid-container i{
+    font-size: 50px;
+    border-radius: 50%;
+    background-color: lightgrey;
+    align-items: center; /* Vertically center the icon */
+    width: 100px; /* Set fixed width for the circle */
+    height: 100px;
+    display: inline-flex; /* Use flexbox for centering the icon */
+    justify-content: center;
+    
+}
+
+.grid-container > div > div{
+    margin: 10px;
+}
+
+.grid-container > div > div > p {
+    width: 450px;
+}
