@@ -1,0 +1,29 @@
+body {
+  background-color: black;
+  color: antiquewhite;
+}
+
+.head {
+  text-align: center;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 16px;
+}
+
+.portfolio-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin: 0 100px;
+}
+
+.portfolio-container img {
+  display: block;
+  width: 100%;
+}
